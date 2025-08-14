@@ -1,0 +1,17 @@
+Planning Production
+    You must plan production for a company that manufactures multiple products. Each product has
+    two associated costs -
+
+    1. A worst-case cost that must be available before production starts
+    2. An expected cost that is actually spent in production
+
+    Determine the minimum amount of starting cash needed to manufacture all products. Products can
+    be produced in any order, and after completing each product, the remaining cash can be used for
+    subsequent products.
+
+Example -
+
+    worstCase = [6,5,7]
+    expected = [4,2,1]
+
+    output - 9
